@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="../multimedia/a-1.jpg" type="image/x-icon">
+    <title>contacto</title>
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+        }
+        .imagen2{
+            width: 100%;
+            background-image: url(../multimedia/hombre-negocios-usando-dispositivos-tecnologia-e-iconos-interfaz-linea-delgada_117023-904.webp);
+            background-position: center;
+        background-size: cover;
+        }
+        .header5{
+            height: 70px;
+            width: 100%;
+            background-image: linear-gradient( blue, black);
+        }
+        .logo5{
+            float: left;
+            color: aliceblue;
+            font-size: 25px;
+            padding: 15px;
+        }
+        .logo5 span{
+            color: aliceblue;
+        }
+        .barra5{
+
+            float: right;
+            font-size: 25px;
+            color:aliceblue;
+            padding: 20px
+        }
+
+        .tituloc{
+            font-size: 30px;
+            margin-top: 30px;
+            margin-left: 300px;
+            margin-bottom: 30px;
+            background-position: center;
+            background-size: cover;
+            padding-left: 20px;
+            color: white;
+            background-color: rgba(0, 0, 255, 0.677);
+            width: 150px;
+            height: 40px;
+            text-decoration: underline black;
+            font-style: italic;
+        }
+        input{
+            transition: all 1s;
+        }
+        input:focus{
+            font-size: 25px;
+            border: 5px dotted blue;
+            color: blue;
+        }
+        .nombre{
+            font-size: 17px;
+            margin: 5%;
+
+            color: white;
+            background-color: rgba(0, 0, 255, 0.677);
+            width: 100px;
+            height: 60px;
+            text-decoration: underline black;
+            font-style: italic;
+        }
+        .apellido{
+            font-size: 17px;
+            margin: 5%;
+            color: white;
+            background-color: rgba(0, 0, 255, 0.677);
+            width: 150px;
+            height: 70px;
+            text-decoration: underline black;
+            font-style: italic;
+        }
+        .correo{
+            font-size: 17px;
+            margin: 5%;
+            color: white;
+            background-color: rgba(0, 0, 255, 0.677);
+            width: 150px;
+            height: 70px;
+            text-decoration: underline black;
+            font-style: italic;
+        }
+        .comentarios{
+            font-size: 17px;
+            margin: 5%;
+            color: white;
+            background-color: rgba(0, 0, 255, 0.677);
+            width: 150px;
+            height: 70px;
+            text-decoration: underline black;
+            font-style: italic;
+        }
+        .enviar{
+            margin-left: 400px;
+        }
+        .inicio3{
+            color: black;
+            text-decoration: underline blue;
+            background-color: rgba(255, 255, 255, 0.681);
+        }
+        footer{
+            margin-top: 270px;
+            padding-top: 20px;
+        background-image: linear-gradient(blue, black);
+        min-height: 40px;
+        width: 100%;
+        text-align: center;
+    }
+        footer p{
+        font-size: 25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-transform: capitalize;
+        color: aliceblue;
+        margin-bottom: 20px;
+    }
+        footer i{
+        font-size: 40px;
+        color: aliceblue;
+        letter-spacing: 20px;
+        margin-bottom: 20px;
+    }
+    </style>
+</head>
+<body class="imagen2">
+    <header class="header5">
+        <div class="logo5">CINA <span>cintia iberra</span></div>
+        <nav class="barra5">Contacto
+        </nav>
+    </header>
+    <h2 class="tituloc">Contacto</h2>
+    <form action="" method="post" enctype="text/plain">
+    <label for="nombre" class="nombre">Ingrese su nombre:</label>
+    <input name="nombre" type="text" required> <br>
+    <label for="apellido" class="apellido">Ingrese su apellido:</label>
+    <input name="apellido" type="text" required><br>
+    <label for="correo" class="correo">Ingrese su correo:</label>
+    <input name="correo" type="mail" required> <br>
+    <label for="comentarios" class="comentarios">Comentarios:</label>
+    <textarea name="comentarios" id="" cols="30" rows="5" placeholder="Escribe tu comentario"></textarea> <br>
+    <input type="button" value="enviar" class="enviar">
+    <input type="reset" value="borrar">
+    </form>
+    <a href="../index.html" class="inicio3"> Ir a inicio</a>
+    <footer>
+        <p>Todos los derechos reservados por copyright</p>
+        <div class="redes">
+            <a ref=""><i class="fa-brands fa-facebook"></i></a>
+            <a ref=""><i class="fa-brands fa-whatsapp"></i></a>
+            <a ref=""><i class="fa-brands fa-instagram"></i></a>
+
+        </div>
+    </footer>
+</body>
+</html>

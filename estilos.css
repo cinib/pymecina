@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    height: 70px;
+    width: 100%;
+    background-image: linear-gradient( blue, black);
+}
+.logo{
+    float: left;
+    color: aliceblue;
+    font-size: 25px;
+    padding: 15px;
+}
+.logo span{
+    color: aliceblue;
+}
+.barra{
+    float: right;
+    padding: 20px
+}
+.barra ul{
+    list-style: none;
+}
+.barra ul li{
+    display: inline-block;
+}
+.barra ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 25px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+main{
+    background-image: url(multimedia/hombre-negocios-usando-dispositivos-tecnologia-e-iconos-interfaz-linea-delgada_117023-904.webp);
+    background-size: cover;
+    background-position: center;
+
+    height: calc(100vh - 80px);
+    width: 100%;
+}
+.call{
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.182);
+    width: 30%;
+    float: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    margin-top: 25px;
+    border-color: aliceblue;
+}
+.call p{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.call a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.call a:hover{
+    background-color: blue;
+}
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px;
+}
+.sec3{
+    height: 200px;
+    width: 100%;
+    padding: 50px;;
+    background-image: linear-gradient(black , blue);
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr);
+    grid-template-rows: repeat( 1, 1fr);
+}
+.item1{
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin: 20px;
+}
+.item2{
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin: 20px;
+}
+.item3{
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin: 20px;
+}
+    footer{
+        background-color: blue;
+        min-height: 40px;
+        width: 100%;
+        text-align: center;
+    }
+    footer p{
+        font-size: 25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-transform: capitalize;
+        color: aliceblue;
+        margin-bottom: 20px;
+    }
+    footer i{
+        font-size: 40px;
+        color: aliceblue;
+        letter-spacing: 20px;
+        margin-bottom: 20px;
+    }
+    .subir{
+        height: 40px;
+        width: 40px;
+        background-color: white;
+        position: fixed;
+        bottom: 40px;
+        right: 40px;
+        text-align: center;
+        font-size: 25px;
+        line-height: 40px;
+        color: blue;
+        border: blue;
+        border-radius: 50%;
+    }
+    .item{
+        height: 120px;
+        width: 120px;
+        background-color: blue;
+        border: 2px black solid;
+    
+    }
