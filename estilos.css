@@ -6,58 +6,49 @@
 html{
     scroll-behavior: smooth;
 }
-.header{
-    height: 70px;
-    width: 100%;
+header{
     background-image: linear-gradient( blue, black);
 }
 .logo{
     float: left;
     color: aliceblue;
-    font-size: 25px;
+    font-size: 30px;
     padding: 15px;
 }
 .logo span{
+    font-size: 40px;
     color: aliceblue;
 }
-.barra{
-    float: right;
+
+.navbar{
+    font-size: 25px;
+    background-image: linear-gradient( blue, black);
     padding: 20px
 }
-.barra ul{
-    list-style: none;
-}
-.barra ul li{
-    display: inline-block;
-}
-.barra ul li a{
-    text-decoration: none;
-    color: aliceblue;
-    font-size: 25px;
-    padding: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+.navbar-brand{
+    font-size: 30px;
 }
 main{
     background-image: url(multimedia/hombre-negocios-usando-dispositivos-tecnologia-e-iconos-interfaz-linea-delgada_117023-904.webp);
     background-size: cover;
     background-position: center;
-
     height: calc(100vh - 80px);
     width: 100%;
 }
 .call{
     color: aliceblue;
     background-color: rgba(0, 0, 0, 0.182);
-    width: 30%;
+    width: 100%;
+    text-align: center;
     float: right;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 20px;
+    padding: 35px;
     margin-top: 25px;
     border-color: aliceblue;
 }
 .call p{
     margin-bottom: 10px;
-    font-size: 15px;
+    font-size: 25px;
 }
 .call a{
     color: aliceblue;
@@ -72,34 +63,14 @@ h2{
     color: aliceblue;
     text-align: center;
     text-transform: capitalize;
-    padding: 10px;
+    padding: 20px;
+    float: center;
 }
-.sec3{
-    height: 200px;
-    width: 100%;
-    padding: 50px;;
-    background-image: linear-gradient(black , blue);
-    display: grid;
-    grid-template-columns: repeat( 3, 1fr);
-    grid-template-rows: repeat( 1, 1fr);
-}
-.item1{
+.col-sm-4{
+    background-image: linear-gradient(black, blue);
+    font-size: 25px;
     color: aliceblue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    margin: 20px;
-}
-.item2{
-    color: aliceblue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    margin: 20px;
-}
-.item3{
-    color: aliceblue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    margin: 20px;
+    padding: 20px;
 }
     footer{
         background-color: blue;
