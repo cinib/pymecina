@@ -1,116 +1,133 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-html{
-    scroll-behavior: smooth;
-}
-header{
-    background-image: linear-gradient( blue, black);
-}
-.logo{
-    float: left;
-    color: aliceblue;
-    font-size: 30px;
-    padding: 15px;
-}
-.logo span{
-    font-size: 40px;
-    color: aliceblue;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.navbar{
-    font-size: 25px;
-    background-image: linear-gradient( blue, black);
-    padding: 20px
+html {
+  scroll-behavior: smooth;
 }
 
+header {
+  background-image: linear-gradient(blue, black);
+}
 
-.navbar-brand{
-    font-size: 30px;
+.logo {
+  float: left;
+  color: white;
+  font-size: 30px;
+  padding: 15px;
 }
-main{
-    background-image: url(multimedia/hombre-negocios-usando-dispositivos-tecnologia-e-iconos-interfaz-linea-delgada_117023-904.webp);
-    background-size: cover;
-    background-position: center;
-    height: calc(100vh - 80px);
-    width: 100%;
+
+.logo span {
+  font-size: 40px;
+  color: white;
 }
-.call{
-    color: aliceblue;
-    background-color: rgba(0, 0, 0, 0.182);
-    width: 100%;
-    text-align: center;
-    float: right;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 35px;
-    margin-top: 25px;
-    border-color: aliceblue;
+
+.navbar {
+  font-size: 25px;
+  background-image: linear-gradient(blue, black);
+  padding: 20px;
 }
-.call p{
-    margin-bottom: 10px;
-    font-size: 25px;
+
+.navbar-brand {
+  font-size: 30px;
 }
-.call a{
-    color: aliceblue;
-    text-decoration: none;
+
+main {
+  background-image: url(multimedia/hombre-negocios-usando-dispositivos-tecnologia-e-iconos-interfaz-linea-delgada_117023-904.webp);
+  background-size: cover;
+  background-position: center;
+  height: calc(100vh - 80px);
+  width: 100%;
 }
-.call a:hover{
-    background-color: blue;
+
+.call {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.182);
+  width: 100%;
+  text-align: center;
+  float: right;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 35px;
+  margin-top: 25px;
+  border-color: white;
 }
-h2{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: black;
-    color: aliceblue;
-    text-align: center;
-    text-transform: capitalize;
-    padding: 20px;
-    float: center;
+
+.call p {
+  margin-bottom: 10px;
+  font-size: 25px;
 }
-.col-sm-4{
-    background-image: linear-gradient(black, blue);
-    font-size: 25px;
-    color: aliceblue;
-    padding: 20px;
+
+.call a {
+  color: white;
+  text-decoration: none;
 }
-    footer{
-        background-color: blue;
-        min-height: 40px;
-        width: 100%;
-        text-align: center;
-    }
-    footer p{
-        font-size: 25px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-        text-transform: capitalize;
-        color: aliceblue;
-        margin-bottom: 20px;
-    }
-    footer i{
-        font-size: 40px;
-        color: aliceblue;
-        letter-spacing: 20px;
-        margin-bottom: 20px;
-    }
-    .subir{
-        height: 40px;
-        width: 40px;
-        background-color: white;
-        position: fixed;
-        bottom: 40px;
-        right: 40px;
-        text-align: center;
-        font-size: 25px;
-        line-height: 40px;
-        color: blue;
-        border: blue;
-        border-radius: 50%;
-    }
-    .item{
-        height: 120px;
-        width: 120px;
-        background-color: blue;
-        border: 2px black solid;
-    
-    }
+
+.call a:hover {
+  background-color: blue;
+}
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 20px;
+  float: center;
+  margin-bottom: 0;
+}
+
+.col-sm-4 {
+  background-image: linear-gradient(black, blue);
+  font-size: 25px;
+  color: white;
+  padding: 20px;
+}
+
+footer {
+  background-color: blue;
+  min-height: 40px;
+  width: 100%;
+  text-align: center;
+}
+
+footer p {
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: capitalize;
+  color: white;
+  margin-bottom: 20px;
+}
+
+footer i {
+  font-size: 40px;
+  color: white;
+  letter-spacing: 20px;
+  margin-bottom: 20px;
+}
+
+.subir {
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  text-align: center;
+  font-size: 25px;
+  line-height: 40px;
+  color: blue;
+  border: blue;
+  border-radius: 50%;
+}
+
+.item {
+  height: 120px;
+  width: 120px;
+  background-color: blue;
+  border: 2px black solid;
+}
+
+/*# sourceMappingURL=estilos.css.map */
