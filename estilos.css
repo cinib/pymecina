@@ -1,133 +1,133 @@
 * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
 header {
-  background-image: linear-gradient(blue, black);
+    background-image: linear-gradient(blue, black);
 }
 
 .logo {
-  float: left;
-  color: white;
-  font-size: 30px;
-  padding: 15px;
+    float: left;
+    color: white;
+    font-size: 30px;
+    padding: 15px;
 }
 
 .logo span {
-  font-size: 40px;
-  color: white;
+    font-size: 40px;
+    color: white;
 }
 
 .navbar {
-  font-size: 25px;
-  background-image: linear-gradient(blue, black);
-  padding: 20px;
+    font-size: 25px;
+    background-image: linear-gradient(blue, black);
+    padding: 20px;
 }
 
 .navbar-brand {
-  font-size: 30px;
+    font-size: 30px;
 }
 
 main {
-  background-image: url(multimedia/hombre-negocios-usando-dispositivos-tecnologia-e-iconos-interfaz-linea-delgada_117023-904.webp);
-  background-size: cover;
-  background-position: center;
-  height: calc(100vh - 80px);
-  width: 100%;
+    background-image: url(multimedia/hombre-negocios-usando-dispositivos-tecnologia-e-iconos-interfaz-linea-delgada_117023-904.webp);
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 80px);
+    width: 100%;
 }
 
 .call {
-  color: white;
-  background-color: rgba(0, 0, 0, 0.182);
-  width: 100%;
-  text-align: center;
-  float: right;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  padding: 35px;
-  margin-top: 25px;
-  border-color: white;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.182);
+    width: 100%;
+    text-align: center;
+    float: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 35px;
+    margin-top: 25px;
+    border-color: white;
 }
 
 .call p {
-  margin-bottom: 10px;
-  font-size: 25px;
+    margin-bottom: 10px;
+    font-size: 25px;
 }
 
 .call a {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
 
 .call a:hover {
-  background-color: blue;
+    background-color: blue;
 }
 
 h2 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: black;
-  color: white;
-  text-align: center;
-  text-transform: capitalize;
-  padding: 20px;
-  float: center;
-  margin-bottom: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 20px;
+    float: center;
+    margin-bottom: 0;
 }
 
 .col-sm-4 {
-  background-image: linear-gradient(black, blue);
-  font-size: 25px;
-  color: white;
-  padding: 20px;
+    background-image: linear-gradient(black, blue);
+    font-size: 25px;
+    color: white;
+    padding: 20px;
 }
 
 footer {
-  background-color: blue;
-  min-height: 40px;
-  width: 100%;
-  text-align: center;
+    background-color: blue;
+    min-height: 40px;
+    width: 100%;
+    text-align: center;
 }
 
 footer p {
-  font-size: 25px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  text-transform: capitalize;
-  color: white;
-  margin-bottom: 20px;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-transform: capitalize;
+    color: white;
+    margin-bottom: 20px;
 }
 
 footer i {
-  font-size: 40px;
-  color: white;
-  letter-spacing: 20px;
-  margin-bottom: 20px;
+    font-size: 40px;
+    color: white;
+    letter-spacing: 20px;
+    margin-bottom: 20px;
 }
 
 .subir {
-  height: 40px;
-  width: 40px;
-  background-color: white;
-  position: fixed;
-  bottom: 40px;
-  right: 40px;
-  text-align: center;
-  font-size: 25px;
-  line-height: 40px;
-  color: blue;
-  border: blue;
-  border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 40px;
+    color: blue;
+    border: blue;
+    border-radius: 50%;
 }
 
 .item {
-  height: 120px;
-  width: 120px;
-  background-color: blue;
-  border: 2px black solid;
+    height: 120px;
+    width: 120px;
+    background-color: blue;
+    border: 2px black solid;
 }
 
 /*# sourceMappingURL=estilos.css.map */
